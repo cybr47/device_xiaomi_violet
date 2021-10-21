@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/stag_violet.mk
+    $(LOCAL_DIR)/revengeos_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    stag_violet-user \
-    stag_violet-userdebug \
-    stag_violet-eng
+    revengeos_violet-user \
+    revengeos_violet-userdebug \
+    revengeos_violet-eng
