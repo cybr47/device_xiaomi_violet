@@ -6,12 +6,6 @@
         "branch"     : "lineage-18.1"
     },
     {
-	"repository" : "ANXCamera",
-	"target_path": "vendor/ANXCamera",
-	"branch"     : "violet",
-	"remote"     : "gitlab-stag"
-    },
-    {
         "repository" : "raghavt20/kernel_sm6150",
         "target_path": "kernel/xiaomi/violet",
         "remote"     : "github",
