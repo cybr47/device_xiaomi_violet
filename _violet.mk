@@ -19,14 +19,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from violet device
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
-# Inherit ANXCamera
-$(call inherit-product, vendor/ANXCamera/config.mk)
-
-# Inherit some common StagOS stuff.
+# Inherit some common stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/stag/main.mk)
+$(call inherit-product, vendor/aosp/main.mk)
 
-PRODUCT_NAME := stag_violet
+PRODUCT_NAME := aosp_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
